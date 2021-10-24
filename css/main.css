@@ -1,0 +1,2529 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.background-left {
+  background-position-x: 196px;
+  background-repeat: no-repeat;
+  background-position-y: 779px;
+}
+
+.background-right {
+  background-position-x: 1402px;
+  background-repeat: no-repeat;
+  background-position-y: 855px;
+}
+
+.container-mid {
+  background-repeat: no-repeat;
+  background-position-x: 601px;
+  background-position-y: 104px;
+}
+
+.home-menu {
+  max-width: 100%;
+  height: 75px;
+  background-color: #fff;
+}
+
+.nav-back {
+  height: 157px !important;
+  background-image: url('/storage/uploads/menu-back.png');
+  background-position: center center;
+  background-position-y: -108px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media only screen and (min-width: 2020px) {
+  .nav-back {
+    background-position-y: -153px;
+  }
+}
+
+.nav-back {
+  position: relative;
+  z-index: 2;
+}
+
+.active {
+  color: #32aee0 !important;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.nav {
+  padding-left: 93px;
+}
+
+.nav li {
+  padding: 7px 13px;
+}
+
+.nav li a {
+  color: #000;
+  font-weight: 600;
+}
+
+.nav li a:hover {
+  color: #32aee0;
+  text-decoration: none;
+}
+
+.nav li a:active {
+  color: #32aee0;
+}
+
+.home-menu .logo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: -39px;
+  top: -2px;
+  background-color: #fff;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -4px 2px 6px 0 rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  border-radius: 100px;
+  z-index: 1;
+}
+
+.logos {
+  width: 87px;
+  height: 87px;
+  position: absolute;
+  top: 16%;
+  left: 22%;
+}
+
+menu,
+ol,
+ul {
+  padding: 0;
+}
+
+.container-fluid .slide .slide-text {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.slides {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.slides .slide {
+  position: relative;
+  display: block;
+}
+
+.slides .slide .slide-white {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.slides .slide {
+  position: relative;
+  display: block;
+}
+
+.slides .slide .slide-back {
+  width: 100%;
+  height: 736px;
+}
+
+.slides .slide .slide-white {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 622px;
+  width: 854px;
+}
+
+.slides .slide .slide-back-blue {
+  position: absolute;
+  top: 0;
+  right: 71px;
+}
+
+.slides .slide .slide-blue {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.slides .slide .slide-child {
+  position: absolute;
+  right: 417px;
+  top: 446px;
+}
+
+.slides .slide .slide-star {
+  position: absolute;
+  top: -4px;
+  right: 112px;
+}
+
+.slides .slide .slide-element {
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+.container .elements-back {
+  position: absolute;
+  right: -30px;
+  top: 948px;
+}
+
+.text-con {
+  width: 21vw;
+  text-align: justify;
+  position: absolute;
+  left: 29%;
+  top: 142px;
+}
+
+.text-con h1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+}
+
+.text-con .animated {
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 2px;
+  padding: 11px;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -3px 4px 0 0 rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+}
+
+.text-con .animated .btn {
+  font-weight: 600;
+  color: #32aee0;
+}
+
+.baseheader .navbar-trigger i {
+  font-size: 24px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.container {
+  width: 900px;
+}
+
+.content {
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  margin-top: -69px;
+  padding-top: 140px;
+  margin-bottom: -2px;
+}
+
+.content h1 {
+  padding-left: 85px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #32aee0;
+  padding-bottom: 30px;
+}
+
+.content p {
+  color: #0000009c;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.video {
+  margin-top: 30px;
+  padding-left: 16px;
+  margin-bottom: 100px;
+}
+
+.content .index-text .index-h1 {
+  padding-left: 100px;
+}
+
+.content .index-text .index-link-name {
+  text-align: center;
+  padding-left: 0;
+}
+
+.content .index-text .text-1 {
+  width: 400px;
+  position: relative;
+  margin-left: 71px;
+  margin-top: 80px;
+}
+
+.content .index-text .text-2 {
+  padding-left: 71px;
+}
+
+.content .index-text .twitter-timeline {
+  width: 341px;
+}
+
+.social-fb-tw {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.social-fb-tw .fb {
+  display: inline-block;
+  width: 40%;
+}
+
+.social-fb-tw .tw {
+  display: inline-block;
+  width: 40%;
+}
+
+.content .index-text .text-1 .btn {
+  color: #32aee0;
+  font-weight: bold;
+}
+
+.content .index-text .text-2 .gallery-btn {
+  color: #32aee0;
+  font-weight: bold;
+}
+
+.content .index-text .flag {
+  position: absolute;
+  left: 40px;
+  top: 748px;
+}
+
+.compet {
+  display: block;
+  padding: 80px 20px 0;
+  z-index: 1;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  display: block;
+  z-index: 1;
+  margin-bottom: -16px;
+}
+
+.compet-title h2 {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 83px;
+}
+
+.compet-title {
+  background-image: url('/storage/uploads/name.png');
+  background-repeat: no-repeat;
+  padding: 13px;
+  margin-left: 250px;
+}
+
+.contact-us-container {
+  display: block;
+  z-index: 1;
+}
+
+.contact-us {
+  display: block;
+  padding: 80px 20px 20px;
+  z-index: 1;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+}
+
+.contact-us p {
+  color: #000;
+  text-align: center;
+  padding: 0 200px;
+}
+
+.container .contact-us-container .contact-us h2 {
+  color: #32aee0;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.competition-left {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 38%;
+}
+
+.competition-right {
+  background-position: right;
+  background-position-y: 37%;
+  background-repeat: no-repeat;
+}
+
+.container .compet .road {
+  margin-top: -1px;
+  margin-left: -21px;
+  width: 96%;
+}
+
+.container .compet .red-dot1 {
+  background-color: red;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 7%;
+  right: 31%;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.container .compet .red-dot2 {
+  background-color: red;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 22.9%;
+  right: 21%;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 7px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.container .compet .red-dot3 {
+  background-color: red;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 42.1%;
+  left: 29%;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.container .compet .red-dot4 {
+  background-color: red;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  bottom: 39.8%;
+  right: 19.5%;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.container .compet .red-dot5 {
+  background-color: red;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  bottom: 33.3%;
+  left: 43.5%;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.container .compet .children-text .children {
+  position: absolute;
+  top: 15.8%;
+  left: 20%;
+}
+
+.container .compet .red-dot-text {
+  position: absolute;
+  top: 11%;
+  width: 248px;
+  right: 10.5%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container .compet .red-dot-text .text-box-shadow {
+  padding-left: 28px;
+  font-size: 13px;
+  font-weight: 100;
+  padding-top: 16px;
+}
+
+.container .compet .children-text .child-name1 {
+  position: absolute;
+  top: 15.6%;
+  color: #000;
+  font-size: 13px;
+  left: 25%;
+}
+
+.container .compet .children-text .child-name2 {
+  position: absolute;
+  top: 15.6%;
+  color: #000;
+  font-size: 13px;
+  left: 38%;
+}
+
+.container .compet .children-text .child-name3 {
+  position: absolute;
+  top: 15.6%;
+  color: #000;
+  font-size: 13px;
+  left: 51.5%;
+}
+
+.container .compet .children-text .child-name4 {
+  position: absolute;
+  top: 18.2%;
+  color: #000;
+  font-size: 13px;
+  left: 24%;
+}
+
+.container .compet .children-text .child-name5 {
+  position: absolute;
+  top: 18.2%;
+  color: #000;
+  font-size: 13px;
+  left: 37%;
+}
+
+.container .compet .children-text .child-name6 {
+  position: absolute;
+  top: 18.3%;
+  color: #000;
+  font-size: 13px;
+  left: 51%;
+}
+
+.container .compet .red-dot2-text p {
+  position: absolute;
+  top: 22.6%;
+  right: 31%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.container .compet .red-dot2-text .car {
+  font-size: 14px;
+  font-weight: 100;
+  position: absolute;
+  left: 7%;
+  width: 138px;
+  height: auto;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  padding: 17px 26px;
+  top: 24.3%;
+  text-transform: unset;
+}
+
+.container .compet .red-dot2-text .car-image {
+  position: absolute;
+  top: 23.5%;
+  left: 22.5%;
+}
+
+.container .compet .red-dot2-text .name-text {
+  font-size: 14px;
+  font-weight: 100;
+  position: absolute;
+  left: 7%;
+  width: 217px;
+  height: auto;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  padding: 23px 26px;
+  top: 29.3%;
+  text-align: center;
+  text-transform: unset;
+}
+
+.container .compet .red-dot2-text .name {
+  position: absolute;
+  top: 28.4%;
+  left: 27%;
+}
+
+.container .compet .red-dot2-text .draw-text {
+  font-size: 14px;
+  font-weight: 100;
+  position: absolute;
+  left: 7%;
+  width: 306px;
+  height: auto;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  padding: 14px 26px;
+  top: 35.3%;
+  text-align: center;
+  text-transform: unset;
+}
+
+.container .compet .red-dot2-text .draw {
+  position: absolute;
+  top: 34.9%;
+  left: 39%;
+}
+
+.container .compet .red-dot2-text .new-text4 {
+  font-size: 14px;
+  font-weight: 100;
+  position: absolute;
+  right: 5%;
+  width: 303px;
+  height: auto;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  padding: 17px 26px;
+  top: 31%;
+  text-transform: unset;
+}
+
+.container .compet .red-dot2-text .new {
+  position: absolute;
+  top: 29.1%;
+  right: 36.4%;
+}
+
+.container .compet .red-dot3-text .sub {
+  position: absolute;
+  bottom: 54.5%;
+  right: 14%;
+  font-weight: bold;
+  font-size: 29px;
+}
+
+.container .compet .red-dot3-text .aaa {
+  right: 4%;
+  position: absolute;
+  bottom: 46%;
+}
+
+.container .compet .red-dot3-text .aaa .dots-half p {
+  color: #000;
+  margin: 0 0 !important;
+}
+
+.container .compet .red-dot3-text .aaa .dots-half {
+  width: 293px;
+  position: absolute;
+  right: 0;
+  bottom: 76px;
+  font-size: 15px;
+}
+
+.container .compet .red-dot3-text .aaa .dot-last p {
+  color: #000;
+  margin: 0 0 !important;
+}
+
+.container .compet .red-dot3-text .aaa .dot-last {
+  position: absolute;
+  width: 657px;
+  right: -21px;
+  bottom: 17px;
+  font-size: 15px;
+}
+
+.container .compet .red-dot4-text p {
+  position: absolute;
+  bottom: 39.4%;
+  right: 30%;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container .compet .red-dot4-text .paint-text {
+  font-size: 14px;
+  position: absolute;
+  left: 9%;
+  width: 125px;
+  height: auto;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  padding: 21px 0;
+  bottom: 37.8%;
+  text-align: center;
+  text-transform: unset;
+  font-weight: bold;
+}
+
+.container .compet .red-dot4-text .paint {
+  position: absolute;
+  bottom: 35.8%;
+  left: 23.8%;
+}
+
+.container .compet .red-dot4-text .pencil-text {
+  font-size: 14px;
+  position: absolute;
+  left: 4.7%;
+  width: 164px;
+  height: auto;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  padding: 11px 22px;
+  bottom: 32%;
+  text-transform: unset;
+  font-weight: bold;
+}
+
+.container .compet .red-dot4-text .pencil {
+  position: absolute;
+  bottom: 30%;
+  left: 25.5%;
+}
+
+.container .compet .red-dot4-text .chalk-text {
+  font-size: 14px;
+  position: absolute;
+  left: 9.5%;
+  width: 277px;
+  height: auto;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  padding: 12px 29px;
+  bottom: 26.3%;
+  text-transform: unset;
+  font-weight: bold;
+}
+
+.container .compet .red-dot4-text .chalk {
+  position: absolute;
+  bottom: 24.3%;
+  left: 42%;
+}
+
+.container .compet .red-dot5-text p {
+  position: absolute;
+  bottom: 33%;
+  right: 23%;
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.container .compet .red-dot5-text .medal1-text {
+  position: absolute;
+  bottom: 25.5%;
+  right: 15%;
+  font-size: 14px;
+  text-transform: none;
+}
+
+.container .compet .red-dot5-text .medal1 {
+  position: absolute;
+  bottom: 27%;
+  right: 16%;
+}
+
+.container .compet .red-dot5-text .medal2-text {
+  position: absolute;
+  bottom: 17.5%;
+  right: 13.9%;
+  font-size: 14px;
+  text-transform: none;
+}
+
+.container .compet .red-dot5-text .medal2 {
+  position: absolute;
+  bottom: 19%;
+  right: 16%;
+}
+
+.container .compet .red-dot5-text .medal3-text {
+  position: absolute;
+  bottom: 9.5%;
+  right: 14%;
+  font-size: 14px;
+  text-transform: none;
+}
+
+.container .compet .red-dot5-text .medal3 {
+  position: absolute;
+  bottom: 11%;
+  right: 16%;
+}
+
+.container .compet .red-dot5-text .montain {
+  position: absolute;
+  bottom: 11.5%;
+  left: 18%;
+}
+
+.container .compet .red-dot5-text .montain-text {
+  position: absolute;
+  bottom: 8%;
+  left: 12%;
+  right: 23%;
+  color: #000;
+  font-weight: normal;
+  font-size: 15px;
+  text-transform: none;
+  width: 335px;
+}
+
+.page-us {
+  display: block;
+  padding: 80px 20px 0;
+  z-index: 1;
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  display: block;
+  z-index: 1;
+  margin-bottom: -16px;
+}
+
+.page-us h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-weight: bold;
+  color: #32aee0;
+}
+
+.page .page-us p {
+  color: #000;
+  padding: 0 60px;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #32aee0;
+  height: 335px;
+}
+
+.footer-container .footer h4,
+p,
+i {
+  color: #fff;
+}
+
+.social {
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.social li {
+  float: left;
+  font-size: 24px;
+  padding: 14px 16px;
+}
+
+.social li a {
+  color: blue;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.phone {
+  margin-right: 17%;
+}
+
+.email {
+  position: relative;
+  left: 110px;
+  bottom: 33px;
+}
+
+.address {
+  position: relative;
+  margin-top: -40px;
+}
+
+.phone,
+.email,
+.address {
+  font-size: 13px;
+  text-align: center;
+}
+
+p strong {
+  font-size: 14px;
+}
+
+.copyright {
+  position: absolute;
+  margin-left: 14px;
+  margin-top: -12px;
+}
+
+.copyright .text i {
+  font-size: 11px;
+}
+
+.copyright .text {
+  font-size: 12px;
+}
+
+.footer .text {
+  font-size: 12px;
+  padding: 0 80px 20px;
+}
+
+.box {
+  padding-right: 15px;
+  text-align: center;
+}
+
+.container .contact-us-container .zahiral {
+  width: 200px;
+  height: 400px;
+  text-align: center;
+}
+
+.container .contact-us-container .zahiral .stive {
+  width: 100%;
+  height: auto;
+}
+
+.container .contact-us-container .timeline .timeline1 {
+  background-color: #fff;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding: 25px 12px;
+  border-radius: 35px;
+  color: #32aee0;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #32aee0;
+}
+
+.container .contact-us-container .timeline .timeline1:hover {
+  background-color: #32aee0;
+  color: #fff;
+}
+
+.container .contact-us-container .timeline .active {
+  background-color: #32aee0;
+  color: #fff !important;
+}
+
+.container .contact-us-container .timeline a:hover {
+  text-decoration: none;
+}
+
+.container .contact-us-container .timeline ul li {
+  list-style: none;
+  float: left;
+  padding: 0 40px;
+}
+
+.container .contact-us-container .timeline {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.container .contact-us-container hr {
+  margin-top: -3rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid #32aee0;
+  width: 85%;
+}
+
+.index-text .text-2 p a {
+  color: #32aee0;
+}
+
+.winner-container {
+  background-size: 96% 90% !important;
+  background-position-y: 71% !important;
+  background-repeat: no-repeat !important;
+}
+
+.winner-container .conn .winners {
+  width: 280px;
+  height: 330px;
+  margin: 12% auto;
+  position: relative;
+}
+
+.winner-container .conn .winners .winner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: 0.5s ease;
+  position: absolute;
+}
+
+.winner-container .conn .winners .winner .img {
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.winner-container .conn .winners .winner .img img {
+  margin-left: 0;
+}
+
+.winner-container .conn .winners .winner .img img:hover {
+  cursor: pointer;
+}
+
+.winner-container .conn .winners .winner .text-container {
+  width: 80%;
+  margin-left: 23%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: white;
+  padding: 5px;
+  box-shadow: -5px 5px 10px #999;
+}
+
+.winner-container .conn .winners .winner .text-container .framer {
+  border: 2px dashed rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+.winner-container .conn .winners .winner .text-container .framer p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: uppercase;
+  margin-top: 2px;
+}
+
+.winner-container .conn .winners .winner .text-container .framer h6 {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #32aee0;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.modal-con {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99;
+  display: none;
+}
+
+.modal-con .modal-img {
+  width: 500px;
+  height: 460px;
+  margin: 14% auto;
+  background-size: 100% 100% !important;
+  background-position: center center !important;
+}
+
+.modal-con .modal-img img {
+  width: 500px;
+  border-radius: 13px;
+  margin-left: 10%;
+  margin-top: -7%;
+}
+
+.modal-con .modal-img .text-container {
+  border-radius: 5px;
+  width: 160px;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 45px;
+  background: white;
+  padding: 5px;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-con .modal-img .text-container .framer {
+  border: 2px dashed rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+.modal-con .modal-img .text-container .framer p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: uppercase;
+  margin-top: 2px;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+
+.modal-con .modal-img .text-container .framer h6 {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: #32aee0;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.modal-con .modal-img .caption-con {
+  width: 85%;
+  margin-left: 10%;
+  font-size: 10px;
+  margin-top: 25px;
+}
+
+.modal-con .modal-img .close {
+  padding: 10px 16px;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.album-page {
+  background-repeat: no-repeat !important;
+  background-position-x: 60px !important;
+}
+
+.album-page .album-container {
+  margin-top: 65px;
+  margin-bottom: 32px;
+}
+
+.album-page .album-each .col-md-6 .album {
+  margin-bottom: 40px;
+}
+
+.album-page .album-each .col-md-6 .album .img {
+  width: 100%;
+  height: 300px;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.album-page .album-each .col-md-6 .album p {
+  padding: 0;
+}
+
+.album-page .album-each .col-md-6:nth-child(odd) {
+  padding-right: 0;
+}
+
+.faq {
+  padding-top: 70px;
+}
+
+.faq .faq-con {
+  background-repeat: no-repeat !important;
+  background-position-y: -45px !important;
+  background-position-x: 167px !important;
+  background-size: 91% !important;
+  padding: 40px 40px;
+}
+
+.faq .faq-con h2 {
+  margin-bottom: 80px;
+}
+
+.faq .faq-con .caption-con {
+  margin-bottom: 40px;
+}
+
+.faq .faq-con .caption-con p {
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+}
+
+.faq .faq-con .but-con {
+  margin-bottom: 80px;
+}
+
+.faq .faq-con .but-con input {
+  width: 50%;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.08);
+  border: 0;
+  padding: 0 10px;
+  padding-right: 0;
+}
+
+.faq .faq-con .but-con button {
+  height: 38px;
+  background: #32aee0;
+  border: 0;
+}
+
+.faq .faq-con .but-con .search-but {
+  margin-left: -4px;
+  width: 50px;
+  padding: 0;
+}
+
+.faq .faq-con .but-con .question-but {
+  color: white;
+  margin-left: 80px;
+  font-size: 14px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.faq .faq-con .answer-container {
+  margin-bottom: 100px;
+}
+
+.faq .faq-con .answer-container .answer-con {
+  margin-bottom: 40px;
+}
+
+.faq .faq-con .answer-container .answer-con .caption {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+}
+
+.faq .faq-con .answer-container .answer-con .caption p {
+  text-align: left;
+  padding: 0;
+  color: #32aee0;
+}
+
+.faq .faq-con .answer-container .answer-list {
+  margin-bottom: 50px;
+}
+
+.faq .faq-con .answer-container .answer-list .answer,
+.faq .faq-con .answer-container .answer-list .quest {
+  margin-bottom: 0;
+}
+
+.faq .faq-con .answer-container .answer-list .answer p,
+.faq .faq-con .answer-container .answer-list .quest p {
+  padding: 0;
+  margin-top: 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+.contact-page .content-el {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-page .content-el p {
+  font-size: 14px;
+  line-height: 29px;
+}
+
+.contact-page .profile-con {
+  width: 65%;
+  margin: 0 auto 50px;
+}
+
+.contact-page .profile-con .col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.contact-page .profile-con .col-md-6 .profile {
+  height: 20vw;
+  background-size: 100% 100% !important;
+  margin-bottom: 40px;
+}
+
+.contact-page .profile-con .col-md-6 .profile .frame {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100% !important;
+  position: relative;
+}
+
+.contact-page .profile-con .col-md-6 .profile .frame .title-con {
+  position: absolute;
+  width: 85%;
+  margin-left: 15%;
+  border-radius: 5px;
+  background: white;
+  bottom: -20px;
+  padding: 4px;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-page .profile-con .col-md-6 .profile .frame .title-con .border-cus {
+  border: 1px dashed black;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.contact-page .profile-con .col-md-6 .profile .frame .title-con .border-cus p {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+  line-height: 15px;
+}
+
+.contact-page .profile-con .col-md-6 .profile .frame .title-con .border-cus h5 {
+  letter-spacing: 2px;
+  margin: 0;
+  font-weight: bold;
+  color: #32aee0;
+}
+
+.contact-page .map-con {
+  padding: 0 20px;
+}
+
+.contact-page .map-con #googleMap {
+  width: 100%;
+  height: 25vw;
+  margin-bottom: 20px;
+}
+
+.navbar-mobile {
+  position: absolute;
+  z-index: 2;
+  margin-left: 50%;
+  background: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  top: 0;
+  right: 0;
+  padding-top: 6px;
+  max-width: 300px;
+  min-width: 300px;
+  transition: 0.5s ease;
+  display: none;
+}
+
+.navbar-mobile span {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.navbar-mobile span i {
+  color: black;
+  font-size: 30px;
+}
+
+.navbar-mobile span:hover {
+  cursor: pointer;
+}
+
+.navbar-mobile ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-mobile ul li {
+  width: 100%;
+}
+
+.navbar-mobile.active {
+  display: block;
+}
+
+.navbar-trigger {
+  display: none;
+  position: absolute;
+  top: 28px;
+  right: 20px;
+  z-index: 1;
+}
+
+.navbar-trigger i {
+  font-size: 24px;
+  color: black;
+}
+
+.navbar-trigger:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1920px) {
+  .nav-back {
+    background-position-y: -87px;
+  }
+
+  .text-con {
+    width: 21vw;
+    text-align: justify;
+    position: absolute;
+    left: 29%;
+    top: 142px;
+  }
+
+  .background-right {
+    background-position-x: 1280px;
+  }
+
+  .background-left {
+    background-position-x: 74px;
+  }
+
+  .container-mid {
+    background-repeat: no-repeat;
+    background-position-x: 60%;
+  }
+}
+
+@media only screen and (max-width: 1620px) {
+  .nav-back {
+    background-position-y: -69px;
+  }
+
+  .container-mid {
+    background-repeat: no-repeat;
+    background-position-x: 64%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .nav-back {
+    background-position-y: -52px;
+  }
+
+  .background-right {
+    background-position-x: 1079px;
+    background-position-y: 903px;
+  }
+
+  .background-left {
+    background-position-x: -137px;
+    background-position-y: 778px;
+  }
+
+  .competition-right {
+    background-position: 1116px;
+  }
+
+  .competition-left {
+    background-position: -90px;
+  }
+
+  .container-mid {
+    background-repeat: no-repeat;
+    background-position-x: 78%;
+  }
+
+  .text-con {
+    width: 29vw;
+    text-align: justify;
+    position: absolute;
+    left: 175px;
+    top: 142px;
+  }
+
+  .text-con h1 {
+    font-weight: 600;
+    font-size: 33px;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .nav-back {
+    background-position-y: -2px;
+  }
+
+  .competition-right {
+    background-position: 1087px;
+  }
+
+  .competition-left {
+    background-position: -121px;
+  }
+
+  .container-mid {
+    background-repeat: no-repeat;
+    background-position-x: 178px;
+    background-position-y: 104px;
+  }
+
+  .background-right {
+    background-position-x: 984px;
+  }
+
+  .background-left {
+    background-position-x: -205px;
+    background-position-y: 779px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .background-left {
+    background-position-x: -281px;
+  }
+
+  .container-mid {
+    background-repeat: no-repeat;
+    background-position-x: 90px;
+    background-position-y: 104px;
+  }
+
+  .background-right {
+    background-position-x: 889px;
+  }
+
+  .competition-right {
+    background-position: 1167px;
+  }
+
+  .competition-left {
+    background-position: -121px;
+  }
+
+  .container .compet .red-dot1 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot2 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+    top: 23.9%;
+    right: 22.1%;
+  }
+
+  .container .compet .red-dot3 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+    top: 42.9%;
+  }
+
+  .container .compet .red-dot4 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+    bottom: 39%;
+    right: 20.5%;
+  }
+
+  .container .compet .red-dot5 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+    bottom: 32.7%;
+  }
+
+  .container .compet .red-dot-text {
+    position: absolute;
+    top: 11%;
+    width: 217px;
+    right: 8.5%;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .container .compet .red-dot3-text .sub {
+    font-size: 24px;
+    bottom: 53.5%;
+  }
+
+  .container .compet .red-dot4-text p {
+    bottom: 38.4%;
+    font-size: 21px;
+  }
+
+  .container .compet .red-dot5-text p {
+    bottom: 32.4%;
+    right: 22%;
+    font-size: 21px;
+  }
+
+  .container .compet .red-dot2-text p {
+    top: 23.4%;
+    right: 31%;
+    font-size: 21px;
+  }
+
+  .compet-title {
+    margin-left: 147px;
+  }
+
+  .container .compet .children-text .children {
+    top: 17%;
+    width: 45%;
+  }
+
+  .container .compet .children-text .child-name1 {
+    top: 16.6%;
+  }
+
+  .container .compet .children-text .child-name2 {
+    top: 16.6%;
+  }
+
+  .container .compet .children-text .child-name3 {
+    top: 16.6%;
+  }
+
+  .container .compet .children-text .child-name4 {
+    top: 19.3%;
+  }
+
+  .container .compet .children-text .child-name5 {
+    top: 19.3%;
+  }
+
+  .container .compet .children-text .child-name6 {
+    top: 19.3%;
+  }
+
+  .container .compet .red-dot5-text .montain {
+    width: 21%;
+    bottom: 11.5%;
+  }
+
+  .container .compet .red-dot5-text .montain-text {
+    bottom: 4%;
+    font-size: 12px;
+    width: 264px;
+  }
+
+  .container .compet .red-dot5-text .medal1 {
+    bottom: 24%;
+  }
+
+  .container .compet .red-dot5-text .medal2 {
+    bottom: 16%;
+  }
+
+  .container .compet .red-dot5-text .medal3 {
+    bottom: 8%;
+  }
+
+  .container .compet .red-dot5-text .medal1-text {
+    bottom: 22.5%;
+  }
+
+  .container .compet .red-dot5-text .medal2-text {
+    bottom: 14.5%;
+  }
+
+  .container .compet .red-dot5-text .medal3-text {
+    bottom: 6.5%;
+  }
+
+  .container .compet .red-dot4-text .chalk {
+    width: 10%;
+  }
+
+  .container .compet .red-dot4-text .chalk-text {
+    width: 220px;
+    bottom: 26%;
+    font-size: 10px;
+  }
+
+  .container .compet .red-dot4-text .pencil {
+    width: 10%;
+  }
+
+  .container .compet .red-dot4-text .pencil-text {
+    font-size: 10px;
+  }
+
+  .container .compet .red-dot4-text .paint {
+    width: 10%;
+  }
+
+  .container .compet .red-dot4-text .paint-text {
+    font-size: 10px;
+  }
+
+  .container .compet .red-dot3-text .aaa .dots-half {
+    width: 260px;
+    position: absolute;
+    right: 0;
+    bottom: 63px;
+    font-size: 12px;
+  }
+
+  .container .compet .red-dot3-text .aaa .dot-last {
+    position: absolute;
+    width: 657px;
+    right: -149px;
+    bottom: 1px;
+    font-size: 12px;
+  }
+
+  .container .compet .red-dot-text .text-box-shadow {
+    padding-left: 25px;
+    font-size: 10px;
+    font-weight: 100;
+    padding-top: 11px;
+  }
+
+  .container .compet .red-dot2-text .car {
+    font-size: 10px;
+  }
+
+  .container .compet .red-dot2-text .car-image {
+    width: 10%;
+  }
+
+  .container .compet .red-dot2-text .name {
+    left: 25%;
+    width: 10%;
+  }
+
+  .container .compet .red-dot2-text .name-text {
+    font-size: 10px;
+    width: 160px;
+  }
+
+  .container .compet .red-dot2-text .draw {
+    top: 36.5%;
+    left: 40.4%;
+    width: 10%;
+  }
+
+  .container .compet .red-dot2-text .draw-text {
+    font-size: 10px;
+    width: 259px;
+    top: 36.3%;
+  }
+
+  .container .compet .red-dot2-text .new {
+    top: 30.1%;
+    width: 10%;
+  }
+
+  .container .compet .red-dot2-text .new-text4 {
+    font-size: 10px;
+    width: 240px;
+    top: 32%;
+  }
+
+  .navbar-trigger {
+    display: block !important;
+  }
+
+  .home-menu .container .navbar {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .competition-right {
+    background-position: 1167px;
+  }
+
+  .competition-left {
+    background-position: -40px;
+  }
+
+  .container .compet .red-dot1 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot2 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot3 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot4 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot5 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot-text {
+    position: absolute;
+    top: 11%;
+    width: 217px;
+    right: 8.5%;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .competition-right {
+    background-position: 1167px;
+  }
+
+  .competition-left {
+    background-position: -40px;
+  }
+
+  .container .compet .red-dot1 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot2 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot3 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot4 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot5 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .background-left {
+    background-position-x: -235px;
+  }
+
+  .background-right {
+    background-position-x: 785px;
+  }
+
+  .container .compet .red-dot1 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot2 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot3 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot4 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .container .compet .red-dot5 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 29px;
+  }
+
+  .slides .slide .slide-back {
+    width: 100%;
+    height: 286px;
+  }
+
+  .slides .slide .slide-white {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 235px;
+    width: 345px;
+  }
+
+  .slides .slide .slide-back-blue {
+    position: absolute;
+    top: 0;
+    right: 6px;
+    width: 35%;
+  }
+
+  .slides .slide .slide-blue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 42%;
+  }
+
+  .slides .slide .slide-child {
+    position: absolute;
+    right: 149px;
+    top: 172px;
+    width: 20%;
+  }
+
+  .slides .slide .slide-star {
+    position: absolute;
+    top: -4px;
+    right: -3px;
+    width: 47%;
+  }
+
+  .slides .slide .slide-element {
+    position: absolute;
+    top: -7px;
+    right: 0;
+    width: 36%;
+  }
+
+  .text-con {
+    width: 21vw;
+    text-align: justify;
+    position: absolute;
+    left: 129px;
+    top: 100px;
+  }
+
+  .text-con h1 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .container-fluid .slide .slide-text {
+    margin-top: 19px;
+    margin-bottom: 20px;
+    font-size: 5px;
+  }
+
+  .text-con .animated .btn {
+    font-weight: 600;
+    color: #32aee0;
+    font-size: 5px;
+  }
+
+  .text-con .animated {
+    padding: 0;
+  }
+
+  .background-left {
+    background-position-x: -274px;
+    background-position-y: 324px;
+  }
+
+  .background-right {
+    background-position-x: 540px;
+    background-position-y: 418px;
+  }
+
+  .content .index-text .flag {
+    position: absolute;
+    left: 6%;
+    top: 40.3%;
+    width: 10%;
+  }
+
+  .content h1 {
+    font-size: 14px;
+  }
+
+  .content p {
+    font-size: 11px;
+  }
+
+  .container .compet .children-text .child-name1 {
+    top: 18%;
+  }
+
+  .container .compet .children-text .child-name2 {
+    top: 18%;
+  }
+
+  .container .compet .children-text .child-name3 {
+    top: 18%;
+  }
+
+  .container .compet .children-text .children {
+    top: 19%;
+    width: 44%;
+  }
+
+  .container .compet .children-text .child-name4 {
+    top: 20.8%;
+  }
+
+  .container .compet .children-text .child-name5 {
+    top: 20.8%;
+    left: 39%;
+  }
+
+  .container .compet .children-text .child-name6 {
+    top: 20.8%;
+    left: 54%;
+  }
+
+  .container .compet .red-dot1 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 25px;
+    padding-top: 4px;
+    top: 10%;
+  }
+
+  .container .compet .red-dot-text {
+    position: absolute;
+    top: 13%;
+    width: 187px;
+    right: 4.5%;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .container .compet .red-dot-text .text-box-shadow {
+    padding-left: 25px;
+    font-size: 10px;
+    font-weight: 100;
+    padding-top: 11px;
+  }
+
+  .container .compet .red-dot2 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 25px;
+    padding-top: 4px;
+    right: 24.1%;
+    top: 25.9%;
+  }
+
+  .container .compet .red-dot2-text p {
+    top: 25.4%;
+    right: 33%;
+    font-size: 15px;
+  }
+
+  .compet-title {
+    margin-left: 49px;
+  }
+
+  .container .compet .red-dot2-text .name-text {
+    font-size: 9px;
+    width: 100px;
+  }
+
+  .container .compet .red-dot2-text .car-image {
+    width: 9%;
+    top: 25.5%;
+  }
+
+  .container .compet .red-dot2-text .car {
+    font-size: 6px;
+    width: 86px;
+    padding: 4px 16px;
+    top: 25.3%;
+  }
+
+  .container .compet .red-dot2-text .name {
+    left: 26%;
+    width: 9%;
+    top: 31.4%;
+  }
+
+  .container .compet .red-dot2-text .name-text {
+    font-size: 9px;
+    width: 100px;
+    padding: 0;
+    top: 30.3%;
+  }
+
+  .container .compet .red-dot2-text .new-text4 {
+    font-size: 7px;
+    width: 186px;
+    padding: 7px 21px;
+    top: 33%;
+  }
+
+  .container .compet .red-dot2-text .new {
+    top: 32.1%;
+    width: 9%;
+  }
+
+  .container .compet .red-dot2-text .draw {
+    top: 38.2%;
+    left: 40%;
+    width: 9%;
+  }
+
+  .container .compet .red-dot2-text .draw-text {
+    font-size: 6px;
+    width: 173px;
+    padding: 0;
+    top: 37.3%;
+  }
+
+  .container .compet .red-dot3 {
+    width: 6vw;
+    height: 6vw;
+    padding-top: 4px;
+    top: 44.5%;
+    font-size: 25px;
+  }
+
+  .container .compet .red-dot3-text .sub {
+    font-size: 17px;
+    bottom: 52%;
+    right: 16%;
+  }
+
+  .container .compet .red-dot3-text .aaa .dots-half {
+    width: 206px;
+    position: absolute;
+    right: 0;
+    bottom: 37px;
+    font-size: 9px;
+  }
+
+  .container .compet .red-dot3-text .aaa .dot-last {
+    position: absolute;
+    width: 394px;
+    right: -19px;
+    bottom: -19px;
+    font-size: 9px;
+  }
+
+  .container .compet .red-dot4 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 25px;
+    padding-top: 4px;
+    right: 22.5%;
+    bottom: 37.8%;
+  }
+
+  .container .compet .red-dot4-text p {
+    bottom: 37.3%;
+    font-size: 17px;
+    right: 31%;
+  }
+
+  .container .compet .red-dot5 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 26px;
+    padding-top: 4px;
+    bottom: 31.7%;
+    left: 42.2%;
+  }
+
+  .container .compet .red-dot5-text p {
+    bottom: 31%;
+    right: 22%;
+    font-size: 17px;
+  }
+
+  .container .compet .red-dot4-text .paint {
+    width: 9%;
+  }
+
+  .container .compet .red-dot4-text .pencil {
+    width: 9%;
+  }
+
+  .container .compet .red-dot4-text .paint-text {
+    font-size: 6px;
+    padding: 9px 0;
+    bottom: 37.3%;
+    width: 76px;
+  }
+
+  .container .compet .red-dot4-text .pencil-text {
+    font-size: 6px;
+    width: 109px;
+    padding: 4px 10px;
+    bottom: 31.5%;
+  }
+
+  .container .compet .red-dot4-text .chalk {
+    width: 9%;
+    bottom: 24%;
+  }
+
+  .container .compet .red-dot4-text .chalk-text {
+    width: 170px;
+    bottom: 25%;
+    font-size: 10px;
+    padding: 4px 26px;
+  }
+
+  .container .compet .red-dot5-text .medal1 {
+    bottom: 24%;
+    width: 15%;
+  }
+
+  .container .compet .red-dot5-text .medal2 {
+    bottom: 16%;
+    width: 15%;
+  }
+
+  .container .compet .red-dot5-text .medal3 {
+    bottom: 8%;
+    width: 15%;
+  }
+
+  .container .compet .red-dot5-text .medal1-text {
+    bottom: 21.5%;
+    right: 12%;
+  }
+
+  .container .compet .red-dot5-text .medal2-text {
+    bottom: 13.5%;
+    right: 11.5%;
+  }
+
+  .container .compet .red-dot5-text .medal3-text {
+    bottom: 5.5%;
+    right: 10%;
+  }
+
+  .container .compet .red-dot5-text .montain {
+    width: 19%;
+    bottom: 11.5%;
+  }
+
+  .container .compet .red-dot5-text .montain-text {
+    bottom: 3%;
+    font-size: 9px;
+    width: 190px;
+  }
+
+  .competition-left {
+    background-position: -235px;
+  }
+
+  .competition-right {
+    background-position: 584px;
+  }
+
+  footer {
+    background-color: #32aee0;
+    height: 515px;
+  }
+
+  .phone {
+    margin-right: 36%;
+  }
+
+  .container-mid {
+    background: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .background-left {
+    background-position-x: -311px;
+    background-position-y: 215px;
+  }
+
+  .background-right {
+    background-position-x: 487px;
+    background-position-y: 365px;
+  }
+
+  .competition-right {
+    background-position: 529px;
+  }
+
+  .competition-left {
+    background-position: -290px;
+  }
+
+  .container .compet .red-dot1 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 20px;
+  }
+
+  .container .compet .red-dot2 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 20px;
+    right: 25.1%;
+    top: 26.2%;
+  }
+
+  .container .compet .red-dot3 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 20px;
+    top: 44.7%;
+  }
+
+  .container .compet .red-dot4 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 20px;
+    right: 23.5%;
+    bottom: 38%;
+  }
+
+  .container .compet .red-dot5 {
+    width: 6vw;
+    height: 6vw;
+    font-size: 20px;
+  }
+
+  .children {
+    position: absolute;
+    top: 17%;
+    left: 20%;
+    width: 45%;
+  }
+
+  .container .compet .children-text .child-name1 {
+    top: 18.4%;
+  }
+
+  .container .compet .children-text .child-name2 {
+    top: 18.4%;
+  }
+
+  .container .compet .children-text .child-name3 {
+    top: 18.4%;
+  }
+
+  .container .compet .children-text .child-name4 {
+    top: 20.8%;
+  }
+
+  .container .compet .children-text .child-name5 {
+    top: 20.8%;
+  }
+
+  .container .compet .children-text .child-name6 {
+    top: 20.8%;
+  }
+
+  .slides .slide .slide-back {
+    width: 100%;
+    height: 250px;
+  }
+
+  .slides .slide .slide-white {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 183px;
+    width: 266px;
+  }
+
+  .slides .slide .slide-back-blue {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    width: 32%;
+  }
+
+  .slides .slide .slide-blue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 42%;
+  }
+
+  .slides .slide .slide-child {
+    position: absolute;
+    right: 121px;
+    top: 136px;
+    width: 18%;
+  }
+
+  .slides .slide .slide-star {
+    position: absolute;
+    top: -4px;
+    right: 112px;
+    width: 31%;
+  }
+
+  .slides .slide .slide-element {
+    position: absolute;
+    top: -11px;
+    right: 0;
+    width: 37%;
+  }
+
+  .text-con {
+    width: 176px;
+    text-align: justify;
+    position: absolute;
+    left: 24%;
+    top: 31%;
+  }
+
+  .logos {
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: 20%;
+    left: 21%;
+  }
+
+  .text-con h1 {
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+  }
+
+  .container-fluid .slide .slide-text {
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-size: 10px;
+    display: none;
+  }
+
+  .text-con .animated .btn {
+    font-weight: 600;
+    color: #32aee0;
+    font-size: 9px;
+  }
+
+  .home-menu .container .row .logo {
+    left: 2%;
+    top: -10px;
+    width: 130px;
+    height: 130px;
+  }
+
+  .home-menu .container .row .navbar {
+    display: none;
+  }
+
+  .navbar-trigger {
+    display: block;
+  }
+
+  .video {
+    margin-bottom: 32px;
+  }
+
+  .content .index-text .text-1 {
+    margin-top: unset;
+  }
+
+  .content .index-text .flag {
+    display: none;
+  }
+
+  .home-menu {
+    max-width: 100%;
+    height: 41px;
+    background-color: #fff;
+  }
+
+  .navbar-trigger i {
+    font-size: 24px;
+    color: #32aee0;
+  }
+
+  .navbar-trigger {
+    top: 7px;
+  }
+
+  .contact-us p {
+    color: #000;
+    text-align: center;
+    padding: 0 14px;
+  }
+
+  .faq .faq-con .but-con .question-but {
+    margin-left: 0;
+  }
+
+  .navbar-trigger {
+    display: block !important;
+  }
+
+  .home-menu .container .navbar {
+    display: none !important;
+  }
+}
+
+.contact-us.faq .faq-con .but-con div {
+  display: none;
+}
+
+.contact-us.faq .faq-con .but-con div form {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.contact-us.faq .faq-con .but-con div form h3 {
+  text-align: center;
+}
+
+.contact-us.faq .faq-con .but-con div form p {
+  padding: 0;
+  text-align: center;
+}
+
+.contact-us.faq .faq-con .but-con div form p label {
+  width: 100%;
+}
+
+.contact-us.faq .faq-con .but-con div form button {
+  width: 100%;
+}
+
+.contact-us.faq .faq-con .but-con div form textarea {
+  width: 100%;
+  resize: none;
+}
