@@ -2527,3 +2527,47 @@ p strong {
   width: 100%;
   resize: none;
 }
+.nav{
+  padding-left:0;
+}
+
+.accordion_container {
+ 	width: 100%;
+}
+.accordion_head {
+	background-color:#32aee0;
+    color: white;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 16px;
+	margin: 0 0 1rem 0;
+    padding: 1rem;
+    border-radius:10px;
+	font-weight: bold;
+  position: relative;
+}
+.accordion_head h5{
+  font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    width:95%;
+    margin:0;
+}
+.accordion_body {
+  
+}
+.accordion_body p{
+	padding: 18px;
+      text-align: left;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.plusminus{
+	font-size: 16px;
+    color: #ff4b78;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
