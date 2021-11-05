@@ -830,7 +830,6 @@ ul {
 
 footer {
   background-color: #32aee0;
-  height: 335px;
 }
 
 .footer-container .footer h4,
@@ -882,8 +881,6 @@ p strong {
 }
 
 .copyright {
-  position: absolute;
-  margin-left: 14px;
   margin-top: -12px;
 }
 
@@ -1377,6 +1374,36 @@ p strong {
   cursor: pointer;
 }
 
+.news-list{
+      margin-top: 5rem;
+}
+
+.news-list .album p{
+  font-weight: bold;
+}
+
+.news-list .album:hover p{
+  color: #32aee0;
+  text-decoration: none;
+}
+
+.news-list .album:hover a{
+  text-decoration: none;
+}
+
+.album time{
+  margin: 0 auto;
+    width: 110px;
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+}
+
+.album i{
+  color: #999;
+}
+
 @media only screen and (max-width: 1920px) {
   .nav-back {
     background-position-y: -87px;
@@ -1793,7 +1820,7 @@ p strong {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 960px) {
   .competition-right {
     background-position: 1167px;
   }
