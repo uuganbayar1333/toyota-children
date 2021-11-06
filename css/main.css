@@ -56,6 +56,8 @@ body {
   display: flex;
   justify-content: end;
   vertical-align: middle;
+  padding-right:0;
+
 }
 
 .nav {
@@ -64,6 +66,10 @@ body {
 
 .nav li {
   padding: 7px 10px;
+}
+
+.navbar .nav li:last-child{
+  padding-right:0;
 }
 
 .nav li a {
@@ -884,6 +890,13 @@ p strong {
   margin-top: -12px;
 }
 
+.recieve-btn{
+  background: #ff4b78;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: #fff !important;
+}
+
 .copyright .text i {
   font-size: 11px;
 }
@@ -1402,6 +1415,10 @@ p strong {
 
 .album i{
   color: #999;
+}
+
+.text-con h1{
+  text-align:left;
 }
 
 @media only screen and (max-width: 1920px) {
@@ -2369,7 +2386,7 @@ p strong {
 }
 .plusminus{
 	font-size: 16px;
-    color: #ff4b78;
+    color: #ffcc00;
     position: absolute;
     right: 20px;
     top: 50%;
@@ -2633,5 +2650,38 @@ p strong {
 
   .content .index-text .index-h1 {
   padding-left: 0;
+}
+  .album-page .album-each .col-md-6:nth-child(odd){
+    padding-right:15px;
+  }
+  .container .contact-us-container .timeline ul li{
+    padding:0 10px;
+  }
+  .container .contact-us-container .timeline .timeline1 {
+    width: 50px;
+    height: 50px;
+    padding: 13px 7px;
+}
+.container .contact-us-container hr{
+  margin-top:-2.5rem;
+}
+  .faq .faq-con {
+    background-position-y: -5px !important;
+    background-position-x: 57px !important;
+    padding:0;
+}
+.faq .faq-con h2 {
+    margin-bottom: 40px;
+}
+.accordion_body p {
+    margin-top: 1rem;
+}
+.hidden-mobile{
+  display:none;
+}
+
+.m-road{
+  background: url('img/m-road.png'); 
+  background-repeat: repeat-y;
 }
 }
