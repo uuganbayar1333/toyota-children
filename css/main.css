@@ -1876,7 +1876,11 @@ p strong {
     font-size: 29px;
   }
 }
-
+@media only screen and (min-width: 769px) {
+  .hidden-desktop{
+    display: none;
+  }
+}
 @media only screen and (max-width: 768px) {
   .background-left {
     background-position-x: -235px;
@@ -2023,7 +2027,7 @@ p strong {
     text-align: justify;
   }
 
-  .container .compet .children-text .child-name1 {
+  /* .container .compet .children-text .child-name1 {
     top: 18%;
   }
 
@@ -2052,7 +2056,7 @@ p strong {
   .container .compet .children-text .child-name6 {
     top: 20.8%;
     left: 54%;
-  }
+  } */
 
   .container .compet .red-dot1 {
     width: 6vw;
@@ -2468,7 +2472,7 @@ p strong {
     width: 45%;
   }
 
-  .container .compet .children-text .child-name1 {
+  /* .container .compet .children-text .child-name1 {
     top: 18.4%;
   }
 
@@ -2490,7 +2494,7 @@ p strong {
 
   .container .compet .children-text .child-name6 {
     top: 20.8%;
-  }
+  } */
 
   .slides .slide .slide-back {
     width: 100%;
@@ -2683,5 +2687,88 @@ p strong {
 .m-road{
   background: url('img/m-road.png'); 
   background-repeat: repeat-y;
+}
+.step{
+  margin-left:2rem;
+  padding-bottom:2rem;
+  padding-top:1rem;
+}
+.step h2{
+      color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.step h2 span{
+      color: #fff;
+    background: red;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.step .desc{
+  color: #333;
+    margin-left: 2rem;
+    font-size: 14px;
+}
+.children-text p{
+  position: relative !important;
+  left:0 !important;
+}
+.children-text img.children{
+  position: relative !important;
+      width: 100% !important;
+    left: 0 !important;
+}
+.child-s1{
+  margin-left: 2rem;
+}
+.child-age{
+  display:flex;
+      justify-content: space-evenly;
+}
+.child-age p{
+  margin-bottom:0;
+}
+.child-level p{
+  margin-top:0;
+}
+
+.child-level{
+  display:flex;
+      justify-content: space-evenly;
+}
+.step ul li{
+  list-style: none;
+      display: flex;
+    margin-bottom: 1.5rem;
+        align-items: center;
+}
+.step-3{
+  margin-left:2rem;
+}
+.step ul li img{
+      width: 50px;
+    height: auto;
+    margin-right: 1rem;
+}
+.step ul li p{
+      color: #333;
+    font-size: 14px;
+    margin:0;
+}
+.goodluck{
+  text-align:center;
+  padding:3rem 0;
+}
+.goodluck p{
+      color: #000;
+    font-weight: bold;
 }
 }
