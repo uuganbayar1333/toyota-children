@@ -1783,9 +1783,17 @@ p strong {
     display: block !important;
   }
 
-  .home-menu .container .navbar {
+  /* .home-menu .container .navbar {
     display: none !important;
-  }
+  } */
+  .nav li a {
+    font-size: 14px;
+}
+.nav li {
+    padding: 7px 5px;
+}
+.text-con {
+    left: 5%;}
 }
 
 @media only screen and (max-width: 960px) {
