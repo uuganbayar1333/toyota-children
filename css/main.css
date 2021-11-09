@@ -871,15 +871,29 @@ i {
 }
 
 .footer-box{
-      display: flex;
-    justify-content: space-evenly;
+  margin-left:1rem;
+}
+.footer-box p{
+    text-align: left;
+}
+.footer-container h4{
+  color: #fff;
+}
+.footer-box p strong{
+  position:absolute;
+}
+.footer-box p i{
+  font-size:16px;
+}
+.footer-box p span{
+  margin-left: 2rem;
+  display: block;
 }
 
 .phone,
 .email,
 .address {
   font-size: 13px;
-  text-align: center;
 }
 
 p strong {
@@ -903,11 +917,13 @@ p strong {
 
 .copyright .text {
   font-size: 12px;
+  padding-top: 1rem;
 }
 
 .footer .text {
-  font-size: 12px;
-  padding: 0 80px 20px;
+  padding: 0 0px 20px;
+    text-align: justify;
+    font-size:12px;
 }
 
 .box {
@@ -2422,7 +2438,7 @@ p strong {
   }
   .navbar-m .nav{
     display: flex;
-    justify-content:center;
+        justify-content: space-evenly;
   }
 
   .background-right {
@@ -2778,5 +2794,17 @@ p strong {
 .goodluck p{
       color: #000;
     font-weight: bold;
+}
+
+.container .contact-us-container .contact-us h2{
+  margin-top:5rem;
+}
+
+.container .contact-us-container .contact-us h2.faq-h2{
+  margin-top:-1rem;
+}
+
+.news-list {
+    margin-top: 2rem;
 }
 }
