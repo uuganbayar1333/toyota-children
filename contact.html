@@ -117,14 +117,8 @@
                                     <p><strong>Хаяг</strong>: Улаанбаатар, Баянгол дүүрэг, 2-р хороо, Үндсэн хуулийн
                                         гудамж 24, Рокмон Бюлдинг 602 тоот</p>
                                     <p><strong>Шуудангийн хаяг</strong>: 1501</p>
-                                    <p><strong>Утасны дугаар</strong>: 70110969</p>
+                                    <p><strong>Утасны дугаар</strong>: 75109999</p>
                                     <p><strong>Ажлын цаг</strong>: 09.00 - 18.00</p>
-                                </div>
-                                <div class="profile-con">
-                                    <div class="row">
-
-
-                                    </div>
                                 </div>
                                 <div class="map-con">
                                     <!-- <div id="googleMap" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-err-container"><div class="gm-err-content"><div class="gm-err-icon"><img src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" draggable="false" style="user-select: none;"></div><div class="gm-err-title">Oops! Something went wrong.</div><div class="gm-err-message">This page didn't load Google Maps correctly. See the JavaScript console for technical details.</div></div></div></div></div> -->
@@ -197,13 +191,16 @@
   var map = L.map('map').setView([47.91369, 106.89455], 15);
   
   // load a tile layer
-  L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
-    {
-      attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
-      maxZoom: 17,
-      minZoom: 9
-    }).addTo(map);
-  L.marker([47.91369, 106.89455]).addTo(map);
+  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1IjoidXVnYW5hYTEzMzMiLCJhIjoiY2t2dXBrcDRzMHBpMDJvanR2ZnptNHF1MiJ9.wTwc5RluejkeJW0LvDmSQA'
+}).addTo(map);
+  var marker = L.marker([47.91370, 106.89404]).addTo(map);
+  marker.bindPopup("<b>ТОЁОТА СЭЙЛС МОНГОЛИА ХХК</b>").openPopup();
   </script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"

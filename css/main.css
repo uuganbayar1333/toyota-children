@@ -1177,11 +1177,15 @@ p strong {
   margin-bottom: 40px;
 }
 
+.album-page .album-each .album .img:hover{
+  cursor: zoom-in;
+}
+
 .album-page .album-each .col-md-6 .album .img {
   width: 100%;
   height: 300px;
   background-size: cover !important;
-  background-position: center center !important;
+  background-position: center center;
 }
 
 .album-page .album-each .col-md-6 .album p {
