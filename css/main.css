@@ -3,7 +3,27 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+.register-cta{
+  margin: 5rem 0 4rem;
+    text-align: center;
+}
 
+#map { height: 250px; }
+
+.register-cta a{
+          background: #ff4b78;
+    padding: 1rem 2.5rem;
+    border-radius: 15px;
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.register-cta a:hover{
+  transform: 0.3s;
+  background: #ffa000;
+  text-decoration: none;
+}
 .background-left {
   background-position-x: 196px;
   background-repeat: no-repeat;
