@@ -133,7 +133,13 @@ ol,
 ul {
   padding: 0;
 }
-
+.accordion_body ul, .accordion_body ol{
+  padding-left:1.5rem
+}
+.accordion_body a{
+  text-decoration: underline;
+  color: #32aee0;
+}
 .container-fluid .slide .slide-text {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -2728,6 +2734,8 @@ p strong {
 .accordion_body p {
     margin-top: 1rem;
 }
+
+
 .hidden-mobile{
   display:none;
 }
