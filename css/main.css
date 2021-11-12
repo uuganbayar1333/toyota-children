@@ -2831,4 +2831,9 @@ p strong {
 .news-list {
     margin-top: 2rem;
 }
+
+.album-page .album-each .col-md-6 .album .img{
+  height:220px;
+  background-position:center center !important;
+}
 }
